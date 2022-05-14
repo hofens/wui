@@ -14,6 +14,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, LoginActivity::class.java))
         }
 
+        findViewById<Button>(R.id.btnShowDialog).setOnClickListener {
+            val firstDialog = CustomDialogFragment()
+            firstDialog.showNow(supportFragmentManager, "CustomDialogFragment")
+        }
+
 
     }
 }
