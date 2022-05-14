@@ -19,6 +19,9 @@ class MainActivity : AppCompatActivity() {
             firstDialog.showNow(supportFragmentManager, "CustomDialogFragment")
         }
 
+        findViewById<Button>(R.id.btnToRecResult).setOnClickListener {
+            startActivity(Intent(this, DetialActivity::class.java))
+        }
 
     }
 }

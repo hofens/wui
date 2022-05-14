@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wui">
         <activity
+            android:name=".DetialActivity"
+            android:exported="false" />
+        <activity
             android:name=".ListActivity"
             android:exported="false" />
         <activity

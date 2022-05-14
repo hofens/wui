@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/drawable/bg_fff_radius_10.xml" value="0.38229166666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/drawable/bg_list_item.xml" value="0.38229166666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/drawable/dotted_line_vertical.xml" value="0.38229166666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/drawable/selector.xml" value="0.38229166666666664" />
@@ -10,10 +11,16 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/drawable/selector_button.xml" value="0.38229166666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/drawable/selector_button_setting.xml" value="0.28125" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/drawable/selector_checkbox.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/layout/activity_detial.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/layout/activity_list.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/layout/fragment_custom_dialog.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/layout/item_rylist.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/layout/layout.xml" value="0.3515625" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/layout/layout_addressee_info.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/layout/layout_case_info.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/wui/app/src/main/res/layout/layout_sender_info.xml" value="0.36614583333333334" />
       </map>
     </option>
   </component>
