@@ -100,27 +100,48 @@
 
     <CheckBox
         android:id="@+id/cb_save_pw"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
         android:layout_marginTop="33dp"
-        android:text="记住密码"
-        android:textSize="14sp"
+        android:button="@null"
+        android:background="@drawable/selector_checkbox"
         android:layout_marginStart="34dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/layout_password"/>
 
-    <CheckBox
-        android:id="@+id/cb_auto_login"
+    <TextView
+        android:id="@+id/tv_desc_remember"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="33dp"
-        android:text="自动登陆"
-        android:theme="@style/CustomCheckBox"
+        android:text="记住密码"
         android:textSize="14sp"
+        android:textColor="#333333"
+        android:layout_marginStart="9dp"
+        app:layout_constraintTop_toTopOf="@id/cb_save_pw"
+        app:layout_constraintBottom_toBottomOf="@id/cb_save_pw"
+        app:layout_constraintStart_toEndOf="@id/cb_save_pw"/>
+
+    <CheckBox
+        android:id="@+id/cb_auto_login"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
         android:checked="true"
+        android:button="@null"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/selector_checkbox"
+        app:layout_constraintEnd_toStartOf="@id/tv_desc_auto_login"
+        app:layout_constraintTop_toTopOf="@id/cb_save_pw"/>
+
+    <TextView
+        android:id="@+id/tv_desc_auto_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自动登陆"
+        android:textSize="14sp"
+        android:textColor="#333333"
         android:layout_marginEnd="42dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layout_password"/>
+        app:layout_constraintTop_toTopOf="@id/tv_desc_remember"/>
 
     <Button
         android:id="@+id/btn_login"

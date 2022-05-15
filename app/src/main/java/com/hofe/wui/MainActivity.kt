@@ -23,5 +23,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, DetialActivity::class.java))
         }
 
+
     }
 }

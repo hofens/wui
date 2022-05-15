@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 因为这两个按钮没有切图，暂时截图替代了下，找UI切图替换下图片就行 -->
+    <item android:state_checked="false" android:drawable="@drawable/icon_toggle_off"/>
+    <item android:state_checked="true" android:drawable="@drawable/icon_toggle_on"/>
+</selector>
